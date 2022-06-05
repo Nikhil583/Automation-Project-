@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import openpyxl as xl
 from openpyxl.chart import BarChart,Reference
 
@@ -32,13 +26,11 @@ def process_workbook(filename):
     wb.save(filename)
 
 
-# In[4]:
+
 
 
 process_workbook("xyz.xlsx")
 
-
-# In[ ]:
 
 
 
